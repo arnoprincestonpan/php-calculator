@@ -1,0 +1,131 @@
+*
+::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+form {
+    border: #007BFF solid 1px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerOperands{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#label1{
+    font-size: 18px;
+    color: #333;
+}
+
+#label2{
+    font-size: 18px;
+    color: #333;
+}
+
+#number1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+#number2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerResult {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#containerOperations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#containerOperations input {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#message{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+
